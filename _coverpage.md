@@ -6,5 +6,4 @@
 
 [![stars](https://badgen.net/github/stars/Q-Angelo/Nodejs-Roadmap?icon=github&color=4ab8a1)](https://github.com/Q-Angelo/Nodejs-Roadmap) [![forks](https://badgen.net/github/forks/Q-Angelo/Nodejs-Roadmap?icon=github&color=4ab8a1)](https://github.com/Q-Angelo/Nodejs-Roadmap)
 
-[GitHub](<https://github.com/Q-Angelo/Nodejs-Roadmap>)
-[开始阅读](README.md)
+[GitHub](<https://github.com/Q-Angelo/Nodejs-Roadmap>)[开始阅读](README.md)
