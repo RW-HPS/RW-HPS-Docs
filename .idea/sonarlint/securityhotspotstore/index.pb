@@ -42,3 +42,11 @@ D
 en/README.md,b\8\b87edc5a6d7390400a3d3fa22f9597b20f2b7307
 <
 zh/README.md,1\f\1fbd778f4c5c0f2b8aa0b900e17b16cf3dc63c0e
+F
+zh/update/Evolution.md,c\0\c01b39b16ea55ef6f4d8faa66d482907cb9667b6
+S
+#zh/simple/DownloadAndInstallJava.md,d\b\dbad74106205162e54c125965b95bf9b287f0981
+Q
+!zh/simple/DownloadAndRunServer.md,b\2\b2b868b4c55cd189c09750bf9ef593f9b3aac99e
+N
+zh/simple/InstallModsOrMaps.md,0\6\066a5df594399bfdf75efd9f3df445a8d341196d
