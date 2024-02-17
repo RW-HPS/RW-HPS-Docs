@@ -36,3 +36,5 @@ N
 simple/DownloadAndRunServer.md,3\8\38444335a17fe4a80508f14965525198c4dda6d1
 H
 simple/InstallPlugins.md,b\b\bb0fefcfbdb15768d945c6573409f43f7107d2a0
+D
+zh/run/UserManual.md,c\f\cfdfce29f0a6f6a04f3c534ac8c17432c43f338b
