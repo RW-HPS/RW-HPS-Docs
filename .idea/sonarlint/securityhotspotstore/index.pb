@@ -38,3 +38,7 @@ H
 simple/InstallPlugins.md,b\b\bb0fefcfbdb15768d945c6573409f43f7107d2a0
 D
 zh/run/UserManual.md,c\f\cfdfce29f0a6f6a04f3c534ac8c17432c43f338b
+<
+en/README.md,b\8\b87edc5a6d7390400a3d3fa22f9597b20f2b7307
+<
+zh/README.md,1\f\1fbd778f4c5c0f2b8aa0b900e17b16cf3dc63c0e
