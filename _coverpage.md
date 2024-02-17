@@ -6,4 +6,4 @@
 
 [![stars](https://badgen.net/github/stars/Q-Angelo/Nodejs-Roadmap?icon=github&color=4ab8a1)](https://github.com/RW-HPS/RW-HPS) [![forks](https://badgen.net/github/forks/Q-Angelo/Nodejs-Roadmap?icon=github&color=4ab8a1)](https://github.com/RW-HPS/RW-HPS)
 
-[GitHub](<https://github.com/RW-HPS/RW-HPS>) [开始阅读](#RW-HPS 目录)
+[GitHub](<https://github.com/RW-HPS/RW-HPS>) [开始阅读](README.md/#RW-HPS 目录)

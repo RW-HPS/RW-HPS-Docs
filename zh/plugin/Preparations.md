@@ -17,7 +17,7 @@ Kotlin 是[让开发人员更快乐的一门现代编程语言](https://www.kotl
 
 ~~使用 RW-HPS 是一个不错的学习 Kotlin 机会~~，使用者有兴趣可以在 [官方中文文档](https://www.kotlincn.net/docs/reference/) 学习 Kotlin。
 
-Java 开发者如果只希望使用 RW-HPS 而不学习 Kotlin，也请阅读 [Kotlin 定义对应的 Java 定义](/plugin/KotlinAndJava.md)（5 分钟）。
+Java 开发者如果只希望使用 RW-HPS 而不学习 Kotlin，也请阅读 [Kotlin 定义对应的 Java 定义](/zh/plugin/KotlinAndJava.md)（5 分钟）。
 
 
 ----

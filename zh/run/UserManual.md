@@ -1,13 +1,13 @@
 # RW-HPS - UserManual
 
 RW-HPS 用户手册  
-本文面向对开发不熟悉而希望使用 RW-HPS 的用户。如果你要开发，请先阅读 [开发文档](/plugin/README.md)
+本文面向对开发不熟悉而希望使用 RW-HPS 的用户。如果你要开发，请先阅读 [开发文档](/zh/plugin/README.md)
 
 ## 使用纯控制台版本 启动 RW-HPS
 
 ### 安装
 
-* [直接运行](/run/Run.md)
+* [直接运行](/zh/run/Run.md)
 * [使用Docker容器](/docker/README.md)
 
 ### 了解运行环境

@@ -22,7 +22,7 @@
 
 ![img](img/configure_rwhps_configdotjson.png)
 
-打开后，你可能会看不懂，不过[这里](/run/Config.md#配置服务器)有配置文件的解释
+打开后，你可能会看不懂，不过[这里](/zh/run/Config.md#配置服务器)有配置文件的解释
 
 我们参照解释配置好服务端，就可以关掉记事本啦
 
