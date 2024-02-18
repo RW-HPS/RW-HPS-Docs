@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>RW-HPS-Docs</title>
+  <link rel="stylesheet" href="https://unpkg.com/docute@4/dist/docute.css">
+</head>
+
+<body>
+  <div id="docute"></div>
+  <script src="https://unpkg.com/docute@4/dist/docute.js"></script>
+  <script>
+    //离线支持（缓存）
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('/sw.js')
+    }
+    //主体
+    new Docute({
+      target: '#docute',
+      //跟随系统主题
+      detectSystemDarkTheme: true,
+      //黑夜白天切换
+      darkThemeToggler: true,
+      //导航栏
+      title: 'RW-HPS-Docs',
+      nav: [
+        {
+          title: '首页',
+          link: '/'
+        },
+        {
+          title: 'GitHub',
+          link: 'https://github.com/RW-HPS/RW-HPS'
+        },
+        // A dropdown menu
+        /*     {
+              title: 'Community',
+              children: [
+                {
+                  title: 'Spectrum',
+                  link: 'https://spectrum.chat/your-community'
+                },
+                {
+                  title: 'Discord',
+                  link: 'https://discord.app/your-discord-server'
+                }
+              ]
+            } */
+      ],
+      //侧边栏国际化支持多语言切换
+      overrides: {
+        //默认目录中文侧边栏TAB选项
+        '/': {
+          language: '简体中文',
+          sidebar: [
+            {
+              title: '指南',
+              children: [
+                {
+                  title: '介绍',
+                  link: '/'
+                },
+                {
+                  title: '部署教程',
+                  link: '/simple/'
+                }
+              ]
+            },
+            {
+              title: '服务端配置',
+              children: [
+                {
+                  title: '运行，启动！',
+                  link: '/run/Run'
+                },
+                {
+                  title: '通用配置项',
+                  link: '/run/Config'
+                },
+                {
+                  title: 'server-HPS配置项',
+                  link: '/run/ServerConfig'
+                },
+                {
+                  title: 'server-Relay配置项',
+                  link: '/run/ConfigRelay'
+                },
+                {
+                  title: '用户手册',
+                  link: '/run/UserManual'
+                },
+                {
+                  title: '构建与编译',
+                  link: '/run/Gradle'
+                }
+              ]
+            },
+            {
+              title: 'API开发',
+              children: [
+                {
+                  title: 'HTTP-API',
+                  link: '/api/HTTP-Plugin'
+                },
+                {
+                  title: 'UPList-API（后面懒得写了）',
+                  link: '/api/UPLIST-API'
+                }
+              ]
+            },
+            {
+                  title: '关于',
+                  link: '/about/'
+            }
+          ]
+        },
+        //en目录英文侧边栏TAB选项
+        '/en/': {
+          language: 'English',
+          sidebar: [
+            {
+              children: [
+                { title: '指南', link: '/zh/guide' }
+              ]
+            }
+          ]
+        }
+      },
+      footer: `
+  <div style="border-top:1px solid var(--border-color);padding-top:30px;margin: 40px 0;color:#999999;font-size: .9rem;">
+  &copy; ${new Date().getFullYear()} Developed by <a href="https://github.com/Mitpoppy" target="_blank">幻想</a>. Released under MIT license.
+  </div>
+  `,
+      banner: {
+        template: `
+      <div class="docute-banner">
+        <note :label="false"
+          ><SponsorIcon width="16" height="16" style="position:relative;top:2px;margin-right:8px;" />💝 在
+          <a href="https://afdian.net/a/derdct" target="_blank"
+            >爱发电<ExternalLinkIcon /></a
+          > 上赞助Dr以支持RW-HPS项目.</note
+        >
+      </div>
+    `
+      }
+    })
+  </script>
+</body>
+
+</html>
