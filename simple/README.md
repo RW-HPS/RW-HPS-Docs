@@ -16,4 +16,3 @@
 4. [安装模组/地图](InstallModsOrMaps.md)
 5. [安装插件](InstallPlugins.md)
 6. [管理服务器](ManageServer.md)
-

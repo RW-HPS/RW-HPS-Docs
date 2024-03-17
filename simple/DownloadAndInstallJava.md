@@ -1,10 +1,20 @@
-# 下载并安装 Java
+# RW-HPS 零基础开服指南开篇
+
+什么？你居然点进了这里？
+
+想必你是想要开一个铁锈战争的服务器吧？
+
+开这服务器和开 Minecraft Java 版的服务器没多大区别~~别告诉我你没开过~~
+
+好吧...不管你开没开过，现在开始教程吧!（你如果真的想开，那么跟着教程走绝对可以正常开启，你不想看那就别去群里问这问那，怪烦人的，你要是有点基础，并且确实有bug的情况下群里问会有热心的的大佬帮助你的，什么？你问群号多少，远在天边，近在眼前！
 
 ## 获取 Java 安装程序
 
-首先呢，你要先安装一个叫做 **Java** 的东西，没有它，服务端就不能运行起来
+首先呢，你要先安装一个叫做 **Java** 的东西（约定俗成为环境），没有它，服务端就不能运行起来
 
-下载链接: [Java 11](http://mirrors.ustc.edu.cn/adoptium/releases/temurin11-binaries/LatestRelease/OpenJDK11U-jdk_x64_windows_hotspot_11.0.20_8.msi)
+目前最新的JAVA版本为：**21**
+
+下载链接: [Java安装包](http://mirrors.ustc.edu.cn/adoptium/releases/temurin11-binaries/LatestRelease/OpenJDK11U-jdk_x64_windows_hotspot_11.0.20_8.msi)
 
 使用浏览器打开链接之后，它应该就开始下载啦
 
@@ -97,8 +107,6 @@ OpenJDK 64-Bit Server VM Temurin-11.0.20+8 (build 11.0.20+8, mixed mode)
 ```
 
 那你现在就可以前往下一章: [下载并运行服务端](DownloadAndRunServer.md#下载并运行服务端)
-
-
 
 如果你看到了
 
