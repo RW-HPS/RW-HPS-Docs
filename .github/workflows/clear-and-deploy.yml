@@ -15,13 +15,13 @@ jobs:
         # 删除public目录下的所有文件和文件夹
         rm -rf public/*
 
-    - name: 从.vitepress/dist移动文件到public
+    - name: 从.vitepress/dist/移动文件到public/
       run: |
         # 检查.vitepress/dist目录是否存在
-        if [ -d ".vitepress/dist" ]; then
+        if [ -d ".vitepress/dist/" ]; then
           # 移动.vitepress/dist目录下的所有文件和文件夹到public目录
           mv .vitepress/dist/* public/
         else
-          echo "错误：.vitepress/dist目录不存在。"
+          echo "错误：.vitepress/dist/目录不存在。"
           exit 1
         fi
