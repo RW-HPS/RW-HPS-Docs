@@ -2,6 +2,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "RW-HPS",
   description: "RW-HPS教程文档",
+  base: '/RW-HPS-Docs/',
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
 
