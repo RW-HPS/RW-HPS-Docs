@@ -107,7 +107,7 @@ RW-HPS支持在服务器控制台处更新服务器,只需输入`tryupdate`即�
 
 > HttpApi令牌(str)
 
-此令牌在[HttpApi](/zh/api/HttpAPI.md)处使用\
+此令牌在HttpApi处使用\
 默认配置为**随机生成**
 
 ### webHOST

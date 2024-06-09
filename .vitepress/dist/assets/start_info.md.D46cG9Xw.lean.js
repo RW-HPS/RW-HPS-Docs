@@ -1,0 +1,1 @@
+import{_ as a,c as t,o as r,a1 as o}from"./chunks/framework.BdbYcYPl.js";const P=JSON.parse('{"title":"RW-HPS","description":"","frontmatter":{},"headers":[],"relativePath":"start/info.md","filePath":"start/info.md"}'),e={name:"start/info.md"},s=o("",11),n=[s];function i(l,h,d,c,_,p){return r(),t("div",null,n)}const f=a(e,[["render",i]]);export{P as __pageData,f as default};
