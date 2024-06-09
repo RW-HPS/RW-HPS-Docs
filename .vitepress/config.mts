@@ -18,14 +18,16 @@ export default defineConfig({
       ],
 
       sidebar: {
-        '/start/info': [
+        '/start/': [
           {
             text: '目录',
             items: [
               { text: '从零开始的RW-HPS生活', link: '/start/info' },
-              { text: '开始安装并使用', link: '/guide/install' },
-              { text: '自定义配置项', link: '/start/config' },
-              { text: '发布', link: '/guide/deploying' }
+              { text: '开始安装并使用', link: '/start/install' },
+              { text: '自定义配置项Config', link: '/start/config' },
+              { text: '自定义配置项ServerConfig', link: '/start/serverconfig' },
+              { text: '自定义配置项ConfigRelay', link: '/start/configrelay' },
+              { text: '常见问题', link: '/start/error' }
             ]
           }
         ]
@@ -40,6 +42,7 @@ export default defineConfig({
     //     ]
     //   }
     // ],
+
 
 
     socialLinks: [
